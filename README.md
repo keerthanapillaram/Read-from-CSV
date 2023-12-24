@@ -24,7 +24,7 @@ Register No: 212223240069
 '''
 To write a python program for reading content from a CSV file.
 import pandas as pd
-df = pd.read_csv('seattle-weather.csv')
+df = pd.read_csv('nba.csv')
 print(df.head(10))
 print(df.tail())
 print("Number of rows:",len(df.axes[0]))
@@ -32,7 +32,12 @@ print("Number of columns:",len(df.axes[1]))
 ```
 
 ## OUTPUT:
+
+Program file:
 ![Alt text](image.png)
+
+Output:
+![Alt text](image-1.png)
 
 ## RESULT:
 Thus python program for reading content from CSV file is successful.
